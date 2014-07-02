@@ -43,8 +43,6 @@ namespace MovieList.Controllers
         }
 
         // POST: /Pictures/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include="ID,Title,ReleaseDate,Genre,Price")] Film film)
@@ -75,8 +73,6 @@ namespace MovieList.Controllers
         }
 
         // POST: /Pictures/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include="ID,Title,ReleaseDate,Genre,Price")] Film film)

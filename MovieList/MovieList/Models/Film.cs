@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Data.Entity;
 
-namespace MovieList.Controllers
+namespace MovieList.Models
 {
     public class Film
     {
